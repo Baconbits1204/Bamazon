@@ -1,0 +1,32 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "A command line interface storefront, with a MySQL database. ",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baconbits1204/Bamazon.git"
+  },
+  "keywords": [
+    "bamazon",
+    "mysql",
+    "cli"
+  ],
+  "author": "Rafael Hermoso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baconbits1204/Bamazon/issues"
+  },
+  "homepage": "https://github.com/Baconbits1204/Bamazon#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^7.0.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
